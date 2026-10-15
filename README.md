@@ -1,0 +1,1 @@
+# kernel-panic-404-page
