@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404</title>
+<style>
+	html, body {
+		margin: 0;
+		background: #000;
+		color: #aaa;
+		font: 15px/1.25 "DejaVu Sans Mono", "Liberation Mono", Menlo, Consolas, monospace;
+	}
+	#term {
+		box-sizing: border-box;
+		min-height: 100vh;
+		padding: 6px 8px 24px;
+		white-space: pre-wrap;
+		overflow-wrap: anywhere;
+	}
+	#cursor {
+		display: inline-block;
+		width: 0.6em;
+		height: 1em;
+		background: #aaa;
+		vertical-align: text-bottom;
+		animation: blink 1s steps(1) infinite;
+	}
+	@keyframes blink { 50% { opacity: 0; } }
+	@media (prefers-reduced-motion: reduce) {
+		#cursor { animation: none; }
+	}
+</style>
+</head>
+<body>
+<div id="term">[    0.000000] Linux version 6.8.0-45-generic (buildd@lcy02-amd64-103) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024 (Ubuntu 6.8.0-45.45-generic 6.8.12)
+[    0.003442] Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic root=UUID=7c1e0f4a-52d9-4b6e-9a3d-0f6b1c2e8d44 ro quiet splash requested_page=/root/Downloads/404(2).html status=404
+[    0.004207] KERNEL supported cpus:
+[    0.008079]   Intel GenuineIntel
+[    0.009755]   AMD AuthenticAMD
+[    0.010987] BIOS-provided physical RAM map:
+[    0.013950] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.017441] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.018036] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[    0.018805] BIOS-e820: [mem 0x0000000000100000-0x00000000bffdffff] usable
+[    0.022802] BIOS-e820: [mem 0x00000000bffe0000-0x00000000bfffffff] reserved
+[    0.022885] BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+[    0.025463] NX (Execute Disable) protection: active
+[    0.028173] APIC: Static calls initialized
+[    0.030392] SMBIOS 2.8 present.
+[    0.031060] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.2-debian-1.16.2-1 04/01/2014
+[    0.032759] Hypervisor detected: KVM
+[    0.035106] tsc: Fast TSC calibration using PIT
+[    0.035306] tsc: Detected 2399.998 MHz processor
+[    0.035536] e820: update [mem 0x00000000-0x00000fff] usable ==&gt; reserved
+[    0.036514] last_pfn = 0x140000 max_arch_pfn = 0x400000000
+[    0.038564] found SMP MP-table at [mem 0x000f5b30-0x000f5b3f]
+[    0.041519] RAMDISK: [mem 0x3434a000-0x35a8dfff]
+[    0.044602] ACPI: Early table checksum verification disabled
+[    0.047963] ACPI: RSDP 0x00000000000F5AF0 000014 (v00 BOCHS )
+[    0.048435] ACPI: FACP 0x00000000BFFE1A2C 000074 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.051250] ACPI: APIC 0x00000000BFFE1B3F 000090 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.055167] Zone ranges:
+[    0.055806]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.058920]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.059047]   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+[    0.059947] Booting paravirtualized kernel on KVM
+[    0.060844] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[    0.062303] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic root=UUID=7c1e0f4a-52d9-4b6e-9a3d-0f6b1c2e8d44 ro quiet splash requested_page=/root/Downloads/404(2).html status=404
+[    0.062503] Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic requested_page=/root/Downloads/404(2).html status=404", will be passed to user space.
+[    0.062615] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.063550] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.063850] Fallback order for Node 0: 0
+[    0.065840] Built 1 zonelists, mobility grouping on.  Total pages: 1031775
+[    0.066180] mem auto-init: stack:off, heap alloc:on, heap free:off
+[    0.087580] Memory: 3918164K/4193848K available (22528K kernel code, 4310K rwdata, 14136K rodata, 4476K init, 17008K bss, 275428K reserved, 0K cma-reserved)
+[    0.090334] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.093255] Kernel/User page tables isolation: enabled
+[    0.095424] ftrace: allocating 56319 entries in 221 pages
+[    0.096324] rcu: Preemptible hierarchical RCU implementation.
+[    0.096523] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+[    0.098072] NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16
+[    0.100088] Console: colour VGA+ 80x25
+[    0.101288] printk: legacy console [tty0] enabled
+[    0.103388] ACPI: Core revision 20230628
+[    0.103550] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+[    0.106819] APIC: Switch to symmetric I/O mode setup
+[    0.110507] x2apic enabled
+[    0.119407] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x229835b7123, max_idle_ns: 440795242976 ns
+[    0.119707] Calibrating delay loop (skipped) preset value.. 4799.99 BogoMIPS (lpj=9599992)
+[    0.122102] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.124426] Spectre V2 : Mitigation: Retpolines
+[    0.145426] Freeing SMP alternatives memory: 44K
+[    0.146026] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz (family: 0x6, model: 0x4f, stepping: 0x1)
+[    0.147382] RCU Tasks: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1.
+[    0.148641] signal: max sigframe size: 1776
+[    0.150208] rcu: Hierarchical SRCU implementation.
+[    0.159108] smp: Bringing up secondary CPUs ...
+[    0.160516] smpboot: x86: Booting SMP configuration:
+[    0.170716] .... node  #0, CPUs:      #1 #2 #3
+[    0.189816] smp: Brought up 1 node, 4 CPUs
+[    0.189876] smpboot: Total of 4 processors activated (19199.99 BogoMIPS)
+[    0.190718] devtmpfs: initialized
+[    0.201918] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.202166] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.202976] audit: initializing netlink subsys (disabled)
+[    0.205631] thermal_sys: Registered thermal governor 'step_wise'
+[    0.209047] PCI: Using configuration type 1 for base access
+[    0.209917] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.211939] ACPI: Added _OSI(Module Device)
+[    0.216339] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    0.219210] ACPI: Interpreter enabled
+[    0.221783] ACPI: PM: (supports S0 S3 S4 S5)
+[    0.223723] ACPI: Using IOAPIC for interrupt routing
+[    0.225838] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.228938] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.230701] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[    0.233215] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+[    0.233973] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+[    0.235395] pci 0000:00:04.0: [1af4:1001] type 00 class 0x010000
+[    0.236254] iommu: Default domain type: Translated
+[    0.237306] SCSI subsystem initialized
+[    0.239783] libata version 3.00 loaded.
+[    0.239913] usbcore: registered new interface driver usbfs
+[    0.241940] usbcore: registered new interface driver hub
+[    0.242006] usbcore: registered new device driver usb
+[    0.256106] clocksource: Switched to clocksource kvm-clock
+[    0.259296] VFS: Disk quotas dquot_6.6.0
+[    0.259918] pnp: PnP ACPI init
+[    0.268618] NET: Registered PF_INET protocol family
+[    0.271657] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    0.274436] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[    0.278031] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.280148] TCP: Hash tables configured (established 32768 bind 32768)
+[    0.283362] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.285337] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.286666] PCI: CLS 0 bytes, default 64
+[    0.292966] Trying to unpack rootfs image as initramfs...
+[    0.480266] Freeing initrd memory: 23308K
+[    0.480706] workingset: timestamp_bits=62 max_order=20 bucket_order=0
+[    0.480804] fuse: init (API version 7.39)
+[    0.484645] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[    0.484671] io scheduler mq-deadline registered
+[    0.488275] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.489835] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.520035] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    0.522741] virtio_blk virtio1: 1/0/0 default/read/poll queues
+[    0.524841] virtio_blk virtio1: [vda] 41943040 512-byte logical blocks (21.5 GB/20.0 GiB)
+[    0.528550]  vda: vda1 vda14 vda15
+[    0.530192] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+[    0.531790] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.532908] mousedev: PS/2 mouse device common for all mice
+[    0.552308] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[    0.554040] rtc_cmos 00:05: registered as rtc0
+[    0.554440] rtc_cmos 00:05: setting system clock to 2026-10-15T10:42:07 UTC (1792060927)
+[    0.592540] NET: Registered PF_INET6 protocol family
+[    0.596406] Segment Routing with IPv6
+[    0.599176] IPv6: Loaded, but disabled by sysctl
+[    0.599999] NET: Registered PF_PACKET protocol family
+[    0.602855] registered taskstats version 1
+[    0.604955] Loading compiled-in X.509 certificates
+[    0.614155] Loaded X.509 cert 'Build time autogenerated kernel key: 3f9a1b7c0d52e86c94b1a7d03e4f58aa21c60b9d'
+[    0.615406] ima: No TPM chip found, activating TPM-bypass!
+[    0.735806] EXT4-fs (vda1): mounted filesystem 0b9c2d1e-6a4f-4e07-8f13-5d2a7c91e3b8 ro with ordered data mode. Quota mode: none.
+[    0.736906] VFS: Mounted root (ext4 filesystem) readonly on device 254:1.
+[    0.740873] devtmpfs: mounted
+[    0.742920] Freeing unused decrypted memory: 2028K
+[    0.747720] Freeing unused kernel image (initmem) memory: 4476K
+[    0.748376] Write protecting the kernel read-only data: 38912k
+[    0.749485] Freeing unused kernel image (rodata/data gap) memory: 1048K
+[    0.750774] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    0.752974] Run /sbin/init as init process
+[    0.974374] EXT4-fs (vda1): re-mounted 0b9c2d1e-6a4f-4e07-8f13-5d2a7c91e3b8 r/w. Quota mode: none.
+[    1.315574] httpd[412]: GET /root/Downloads/404(2).html HTTP/1.1
+[    1.316374] httpd[412]: open("/root/Downloads/404(2).html") failed: -2 (No such file or directory)
+[    1.316774] httpd[412]: page not found: /root/Downloads/404(2).html (404)
+[    1.319874] Kernel panic - not syncing: Page not found: /root/Downloads/404(2).html (404)
+CPU: 2 PID: 412 Comm: httpd Not tainted 6.8.0-45-generic #45-Ubuntu
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.2-debian-1.16.2-1 04/01/2014
+Call Trace:
+ <task>
+</task> dump_stack_lvl+0x48/0x70
+ dump_stack+0x10/0x20
+ panic+0x1c4/0x370
+ path_openat+0x9f2/0x1210
+ do_filp_open+0xb2/0x160
+ do_sys_openat2+0x9c/0xe0
+ __x64_sys_openat+0x55/0xa0
+ x64_sys_call+0x1b0e/0x25a0
+ do_syscall_64+0x7f/0x180
+ entry_SYSCALL_64_after_hwframe+0x78/0x80
+ 
+Kernel Offset: 0x2a600000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+---[ end Kernel panic - not syncing: Page not found: /root/Downloads/404(2).html (404) ]---
+<span id="cursor"></span></div>
+<noscript><pre style="color:#aaa">Kernel panic - not syncing: Page not found (404)</pre></noscript>
+<script>
+(function () {
+	"use strict";
+
+	var term = document.getElementById("term");
+	var reduced = window.matchMedia &&
+	    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+	var raw = location.pathname + location.search;
+	var path = raw.length > 60 ? raw.slice(0, 60) : raw;
+	var t = 0.0;
+	var out = [];
+
+	function esc(s) {
+		return s.replace(/&/g, "&amp;").replace(/</g, "&lt;")
+		    .replace(/>/g, "&gt;");
+	}
+	function hex(n) {
+		var s = "";
+		for (var i = 0; i < n; i++)
+			s += Math.floor(Math.random() * 16).toString(16);
+		return s;
+	}
+	function pad(n) {
+		var s = n.toFixed(6);
+		while (s.length < 12) s = " " + s;
+		return s;
+	}
+	/* kernel line: dt = time since previous line, d = real-world pause */
+	function k(msg, dt, d) {
+		t += (dt === undefined) ? Math.random() * 0.004 : dt;
+		out.push({ h: "[" + pad(t) + "] " + msg, d: d === undefined ? 8 : d });
+	}
+	function p(msg, d) { out.push({ h: msg, d: d === undefined ? 8 : d }); }
+
+	var P = esc(path);
+
+	k("Linux version 6.8.0-45-generic (buildd@lcy02-amd64-103) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024 (Ubuntu 6.8.0-45.45-generic 6.8.12)", 0, 120);
+	k("Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic root=UUID=" + "7c1e0f4a-52d9-4b6e-9a3d-0f6b1c2e8d44 ro quiet splash requested_page=" + P + " status=404");
+	k("KERNEL supported cpus:");
+	k("  Intel GenuineIntel");
+	k("  AMD AuthenticAMD");
+	k("BIOS-provided physical RAM map:");
+	k("BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable");
+	k("BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved");
+	k("BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved");
+	k("BIOS-e820: [mem 0x0000000000100000-0x00000000bffdffff] usable");
+	k("BIOS-e820: [mem 0x00000000bffe0000-0x00000000bfffffff] reserved");
+	k("BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable");
+	k("NX (Execute Disable) protection: active");
+	k("APIC: Static calls initialized");
+	k("SMBIOS 2.8 present.");
+	k("DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.2-debian-1.16.2-1 04/01/2014");
+	k("Hypervisor detected: KVM");
+	k("tsc: Fast TSC calibration using PIT");
+	k("tsc: Detected 2399.998 MHz processor", 0.0002);
+	k("e820: update [mem 0x00000000-0x00000fff] usable ==> reserved");
+	k("last_pfn = 0x140000 max_arch_pfn = 0x400000000");
+	k("found SMP MP-table at [mem 0x000f5b30-0x000f5b3f]");
+	k("RAMDISK: [mem 0x3434a000-0x35a8dfff]");
+	k("ACPI: Early table checksum verification disabled");
+	k("ACPI: RSDP 0x00000000000F5AF0 000014 (v00 BOCHS )");
+	k("ACPI: FACP 0x00000000BFFE1A2C 000074 (v01 BOCHS  BXPC     00000001 BXPC 00000001)");
+	k("ACPI: APIC 0x00000000BFFE1B3F 000090 (v03 BOCHS  BXPC     00000001 BXPC 00000001)");
+	k("Zone ranges:");
+	k("  DMA      [mem 0x0000000000001000-0x0000000000ffffff]");
+	k("  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]");
+	k("  Normal   [mem 0x0000000100000000-0x000000013fffffff]");
+	k("Booting paravirtualized kernel on KVM", 0.0009);
+	k("setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1");
+	k("Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic root=UUID=7c1e0f4a-52d9-4b6e-9a3d-0f6b1c2e8d44 ro quiet splash requested_page=" + P + " status=404");
+	k("Unknown kernel command line parameters \"splash BOOT_IMAGE=/boot/vmlinuz-6.8.0-45-generic requested_page=" + P + " status=404\", will be passed to user space.", 0.0002, 30);
+	k("Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)");
+	k("Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)");
+	k("Fallback order for Node 0: 0", 0.0003);
+	k("Built 1 zonelists, mobility grouping on.  Total pages: 1031775");
+	k("mem auto-init: stack:off, heap alloc:on, heap free:off");
+	k("Memory: 3918164K/4193848K available (22528K kernel code, 4310K rwdata, 14136K rodata, 4476K init, 17008K bss, 275428K reserved, 0K cma-reserved)", 0.0214, 30);
+	k("SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1");
+	k("Kernel/User page tables isolation: enabled");
+	k("ftrace: allocating 56319 entries in 221 pages");
+	k("rcu: Preemptible hierarchical RCU implementation.", 0.0009);
+	k("rcu: \tRCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.");
+	k("NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16");
+	k("Console: colour VGA+ 80x25");
+	k("printk: legacy console [tty0] enabled", 0.0012);
+	k("ACPI: Core revision 20230628", 0.0021);
+	k("clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns");
+	k("APIC: Switch to symmetric I/O mode setup");
+	k("x2apic enabled");
+	k("clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x229835b7123, max_idle_ns: 440795242976 ns", 0.0089);
+	k("Calibrating delay loop (skipped) preset value.. 4799.99 BogoMIPS (lpj=9599992)", 0.0003, 30);
+	k("Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization");
+	k("Spectre V2 : Mitigation: Retpolines");
+	k("Freeing SMP alternatives memory: 44K", 0.021);
+	k("smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz (family: 0x6, model: 0x4f, stepping: 0x1)", 0.0006);
+	k("RCU Tasks: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1.");
+	k("signal: max sigframe size: 1776");
+	k("rcu: Hierarchical SRCU implementation.");
+	k("smp: Bringing up secondary CPUs ...", 0.0089, 40);
+	k("smpboot: x86: Booting SMP configuration:");
+	k(".... node  #0, CPUs:      #1 #2 #3", 0.0102);
+	k("smp: Brought up 1 node, 4 CPUs", 0.0191);
+	k("smpboot: Total of 4 processors activated (19199.99 BogoMIPS)");
+	k("devtmpfs: initialized");
+	k("clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns", 0.0112);
+	k("NET: Registered PF_NETLINK/PF_ROUTE protocol family");
+	k("audit: initializing netlink subsys (disabled)");
+	k("thermal_sys: Registered thermal governor 'step_wise'");
+	k("PCI: Using configuration type 1 for base access");
+	k("HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages");
+	k("ACPI: Added _OSI(Module Device)");
+	k("ACPI: 1 ACPI AML tables successfully acquired and loaded", 0.0044);
+	k("ACPI: Interpreter enabled");
+	k("ACPI: PM: (supports S0 S3 S4 S5)");
+	k("ACPI: Using IOAPIC for interrupt routing");
+	k("PCI: Using host bridge windows from ACPI; if necessary, use \"pci=nocrs\" and report a bug");
+	k("ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])", 0.0031);
+	k("pci 0000:00:00.0: [8086:1237] type 00 class 0x060000");
+	k("pci 0000:00:01.1: [8086:7010] type 00 class 0x010180");
+	k("pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000");
+	k("pci 0000:00:04.0: [1af4:1001] type 00 class 0x010000");
+	k("iommu: Default domain type: Translated");
+	k("SCSI subsystem initialized");
+	k("libata version 3.00 loaded.");
+	k("usbcore: registered new interface driver usbfs");
+	k("usbcore: registered new interface driver hub");
+	k("usbcore: registered new device driver usb");
+	k("clocksource: Switched to clocksource kvm-clock", 0.0141);
+	k("VFS: Disk quotas dquot_6.6.0");
+	k("pnp: PnP ACPI init");
+	k("NET: Registered PF_INET protocol family", 0.0087);
+	k("IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)");
+	k("tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)");
+	k("TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)");
+	k("TCP: Hash tables configured (established 32768 bind 32768)");
+	k("UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)");
+	k("NET: Registered PF_UNIX/PF_LOCAL protocol family");
+	k("PCI: CLS 0 bytes, default 64");
+	k("Trying to unpack rootfs image as initramfs...", 0.0063, 30);
+	k("Freeing initrd memory: 23308K", 0.1873, 140);
+	k("workingset: timestamp_bits=62 max_order=20 bucket_order=0");
+	k("fuse: init (API version 7.39)");
+	k("Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)");
+	k("io scheduler mq-deadline registered");
+	k("input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0");
+	k("Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled");
+	k("00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A", 0.0302);
+	k("virtio_blk virtio1: 1/0/0 default/read/poll queues");
+	k("virtio_blk virtio1: [vda] 41943040 512-byte logical blocks (21.5 GB/20.0 GiB)", 0.0021);
+	k(" vda: vda1 vda14 vda15");
+	k("i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12");
+	k("serio: i8042 KBD port at 0x60,0x64 irq 1");
+	k("mousedev: PS/2 mouse device common for all mice");
+	k("input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1", 0.0194);
+	k("rtc_cmos 00:05: registered as rtc0");
+	k("rtc_cmos 00:05: setting system clock to 2026-10-15T10:42:07 UTC (1792060927)", 0.0004);
+	k("NET: Registered PF_INET6 protocol family", 0.0381);
+	k("Segment Routing with IPv6");
+	k("IPv6: Loaded, but disabled by sysctl");
+	k("NET: Registered PF_PACKET protocol family");
+	k("registered taskstats version 1");
+	k("Loading compiled-in X.509 certificates", 0.0021);
+	k("Loaded X.509 cert 'Build time autogenerated kernel key: 3f9a1b7c0d52e86c94b1a7d03e4f58aa21c60b9d'", 0.0092);
+	k("ima: No TPM chip found, activating TPM-bypass!");
+	k("EXT4-fs (vda1): mounted filesystem 0b9c2d1e-6a4f-4e07-8f13-5d2a7c91e3b8 ro with ordered data mode. Quota mode: none.", 0.1204, 220);
+	k("VFS: Mounted root (ext4 filesystem) readonly on device 254:1.", 0.0011, 120);
+	k("devtmpfs: mounted");
+	k("Freeing unused decrypted memory: 2028K");
+	k("Freeing unused kernel image (initmem) memory: 4476K", 0.0048);
+	k("Write protecting the kernel read-only data: 38912k");
+	k("Freeing unused kernel image (rodata/data gap) memory: 1048K");
+	k("x86/mm: Checked W+X mappings: passed, no W+X pages found.");
+	k("Run /sbin/init as init process", 0.0022, 300);
+	k("EXT4-fs (vda1): re-mounted 0b9c2d1e-6a4f-4e07-8f13-5d2a7c91e3b8 r/w. Quota mode: none.", 0.2214, 120);
+	k("httpd[412]: GET " + P + " HTTP/1.1", 0.3412, 260);
+	k("httpd[412]: open(\"" + P + "\") failed: -2 (No such file or directory)", 0.0008, 120);
+	k("httpd[412]: page not found: " + P + " (404)", 0.0004, 700);
+	k("Kernel panic - not syncing: Page not found: " + P + " (404)", 0.0031, 20);
+	p("CPU: 2 PID: 412 Comm: httpd Not tainted 6.8.0-45-generic #45-Ubuntu");
+	p("Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.2-debian-1.16.2-1 04/01/2014");
+	p("Call Trace:");
+	p(" <TASK>");
+	p(" dump_stack_lvl+0x48/0x70");
+	p(" dump_stack+0x10/0x20");
+	p(" panic+0x1c4/0x370");
+	p(" path_openat+0x9f2/0x1210");
+	p(" do_filp_open+0xb2/0x160");
+	p(" do_sys_openat2+0x9c/0xe0");
+	p(" __x64_sys_openat+0x55/0xa0");
+	p(" x64_sys_call+0x1b0e/0x25a0");
+	p(" do_syscall_64+0x7f/0x180");
+	p(" entry_SYSCALL_64_after_hwframe+0x78/0x80");
+	p(" </TASK>");
+	p("Kernel Offset: 0x2a600000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)");
+	p("---[ end Kernel panic - not syncing: Page not found: " + P + " (404) ]---");
+
+	var idx = 0;
+	function step() {
+		var n = 0;
+		/* burst several fast lines per frame like a real console */
+		while (idx < out.length) {
+			var l = out[idx++];
+			term.insertAdjacentHTML("beforeend", l.h + "\n");
+			n++;
+			if (!reduced && l.d > 10) {
+				window.scrollTo(0, document.body.scrollHeight);
+				setTimeout(step, l.d);
+				return;
+			}
+			if (!reduced && n >= 3) break;
+		}
+		window.scrollTo(0, document.body.scrollHeight);
+		if (idx < out.length) {
+			setTimeout(step, reduced ? 0 : 16);
+		} else {
+			term.insertAdjacentHTML("beforeend",
+			    '<span id="cursor"></span>');
+			window.scrollTo(0, document.body.scrollHeight);
+		}
+	}
+	step();
+})();
+</script>
+
+
+</body></html>
